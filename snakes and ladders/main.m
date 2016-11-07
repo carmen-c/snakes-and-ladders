@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
         Player *player = [[Player alloc]init];
         NSLog(@"Welcome user! please type roll or r");
         
-        while (TRUE) {
+        while (player.gameOver ==NO) {
         
 //             NSLog(@"Your current position: %d", (int)player.curentSquare);
             

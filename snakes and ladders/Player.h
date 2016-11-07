@@ -10,8 +10,10 @@
 
 @interface Player : NSObject
 
-@property (nonatomic) NSInteger curentSquare;
-@property (nonatomic) NSDictionary* gameLogic;
+@property (nonatomic) int currentSquare;
+@property (nonatomic) NSDictionary* snake;
+@property (nonatomic) NSDictionary* ladder;
+@property (nonatomic) BOOL gameOver;
 
 -(void) roll;
 

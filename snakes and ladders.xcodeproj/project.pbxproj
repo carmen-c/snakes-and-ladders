@@ -245,6 +245,7 @@
 				1F83D2C31DCEB67F004D79D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
